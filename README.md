@@ -1,2 +1,2 @@
 # rdip
-My first reo=pository on GitHub
+My first repository on GitHub
