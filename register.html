@@ -7,38 +7,38 @@
     <link rel="stylesheet" href="css/inputtype.css"
   </head>
   <body>
-    <form>
-      <<h2 align=center>Registration Form</h2>
+    <form action="submit.php" method="post">
+      <h2 align=center>Registration Form</h2>
       <fieldset>
         <legend>Input Types</legend>
-        <label>Name: <input type="text" id="name" name="name"value="enter your name" /></label>
+        <label for="name">Name: <input type="text" id="name" name="name"value="enter your name" /></label>
         <br>
 
-        <label>
-        Phone Number: <input type="number" name="numberInput" min="10" max="10"/>
+        <label for="Number">
+        Phone Number: <input type="number" id="Number" name="numberInput" />
         </label><br>
         <h3>Choice Of Courese</h3>
-        <label
-          ><input type="radio" name="degree" value="Bachelors" checked />Bachelors</label
+        <label for="degree"
+          ><input type="radio" name="degree" id="degree"value="Bachelors" checked />Bachelors</label
         >
 
-        <label><input type="radio" name="sex" value="Masters" />Masters</label>
+        <label for="Masters"><input type="radio" id="degree" name="sex" value="Masters" />Masters</label>
         <br />
       <h3>Subject Interested</h3>
 
-        <label>
-          <input type="checkbox" name="HTML" value="Bike" />HTML</label
+        <label for="html" >
+          <input type="checkbox" name="HTML"id="html" value="Bike" />HTML</label
         >
 
-        <label>
-          <input type="checkbox" name="CSS" value="Bike" />CSS</label>
-        <label>
-          <input type="checkbox" name="JS" value="Bike" />JS</label>
+        <label for="css">
+          <input type="checkbox" name="CSS"id="css" value="Bike" />CSS</label>
+        <label for="js">
+          <input type="checkbox" name="JS"id="js" value="Bike" />JS</label>
 
         <h2>Description</h2>
         <textarea id="textarea" name="textarea" rows="5" cols="50">
         </textarea><br>
-        <input type="submit" value="Register" />
+        <button onclick="submit.php">submit</button>
       </fieldset>
     </form>
   </body>
