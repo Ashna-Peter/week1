@@ -13,22 +13,18 @@
         <legend>Input Types</legend>
         <label>Name: <input type="text" id="name" name="name"value="enter your name" /></label>
         <br>
-        <label>Email: <input type="email" name="email" value="eg@gmail.com" /> </label>
-        <br>
-        <label>Create Password: <input type="password" name="pass"  /></label>
-        <label>Confirm Password: <input type="password" name="pass /></label>
-        <br />
+
         <label>
-          Number: <input type="number" name="numberInput" min="10" max="10"/>
+        Phone Number: <input type="number" name="numberInput" min="10" max="10"/>
         </label><br>
-        <h3>Gender</h3>
+        <h3>Choice Of Courese</h3>
         <label
-          ><input type="radio" name="sex" value="male" checked />Male</label
+          ><input type="radio" name="degree" value="Bachelors" checked />Bachelors</label
         >
 
-        <label><input type="radio" name="sex" value="female" />Female</label>
+        <label><input type="radio" name="sex" value="Masters" />Masters</label>
         <br />
-      <h3>Courses</h3>
+      <h3>Subject Interested</h3>
 
         <label>
           <input type="checkbox" name="HTML" value="Bike" />HTML</label
@@ -39,12 +35,9 @@
         <label>
           <input type="checkbox" name="JS" value="Bike" />JS</label>
 
-        <label>
-        <h3>Familiour with the course</h3>
-          Range: <input type="range" name="rangeInput" min="1" max="10"
-        /></label><br>
-        <label>Dateof birth: <input type="date" name="dateInput" /></label>
-        <br>
+        <h2>Description</h2>
+        <textarea id="textarea" name="textarea" rows="5" cols="50">
+        </textarea><br>
         <input type="submit" value="Register" />
       </fieldset>
     </form>
